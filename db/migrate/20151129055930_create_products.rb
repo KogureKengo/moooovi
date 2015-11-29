@@ -6,7 +6,7 @@ class CreateProducts < ActiveRecord::Migration
       t.string  :director
       t.text    :detail
       t.string  :open_date
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end
