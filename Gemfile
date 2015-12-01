@@ -49,3 +49,5 @@ gem 'pry-rails'
 
 # 追加
 gem 'mechanize'
+gem 'devise'
+gem 'paperclip'

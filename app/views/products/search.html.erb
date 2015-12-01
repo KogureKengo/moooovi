@@ -28,7 +28,7 @@
 
               <% @products.each do |product|%>
                 <li>
-                  <a class="listview__element--right-icon" href="/products/0/reviews/new" title= <%= product.title %>>
+                  <a class="listview__element--right-icon" href="/products/<%= product.id %>/reviews/new" title= <%= product.title %>>
                     <div class="position-right p1em">
                       <i class="icon-chevron-right color-sub"></i>
                     </div>
